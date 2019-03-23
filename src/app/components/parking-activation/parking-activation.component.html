@@ -1,0 +1,14 @@
+<h2>Habilitar Patente</h2>
+
+<form (ngSubmit)="addParking()" >
+  <p>Patente</p>
+  <input type="text" name="patent" [(ngModel)]="parking.patent" title="patent">
+  <p>Ubicación</p>
+  <input type="text" name="location" [(ngModel)]="parking.location" title="location">
+  <p>Tiempo</p>
+  <input type="text" name="time" [(ngModel)]="parking.endTime" title="time"><br/>
+  <br/>
+  <button type="submit">
+    Habilitar
+  </button>
+</form>
