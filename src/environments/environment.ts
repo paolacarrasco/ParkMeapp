@@ -11,7 +11,6 @@ export const environment = {
       projectId: "ingsoftproject-f89c2",
       storageBucket: "",
       messagingSenderId: "492937369766"
-      
     }
   };
   
