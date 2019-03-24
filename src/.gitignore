@@ -1,1 +1,5 @@
 *.environment.ts
+
+./environments/environment.ts
+
+/environments/environment.ts
